@@ -21,4 +21,21 @@ cp env.example.txt .env
 # Запуск через Docker Compose
 docker-compose up -d
 
+# Структура
+phone-address-service/
+├── app/
+│   ├── main.py                     # Точка входа приложения
+│   ├── config.py                   # Конфигурация
+│   ├── service/
+│         └──redis_client.py        # Клиент Redis
+│   ├── dependencies.py             # Зависимости FastAPI
+│   ├── models/                     # Pydantic модели
+│   ├── commands/                   # Команды (CQRS)
+│   ├── queries/                    # Запросы (CQRS)
+│   └── endpoints/                  # API эндпоинты
+├── requirements.txt                # Python зависимости
+├── Dockerfile                      # Конфигурация Docker
+├── docker-compose.yml              # Docker Compose
+└── README.md                       # Эта документация
+
 
