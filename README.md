@@ -19,7 +19,7 @@
 
 ### Клонирование и запуск
 ```bash
-git clone <ваш-репозиторий>
+git clone <https://github.com/timurk2302/AveTech_test_service.git>
 cd phone-address-service
 cp env.example.txt .env
 
