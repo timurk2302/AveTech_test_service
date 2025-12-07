@@ -26,6 +26,4 @@ cp env.example.txt .env
 # Запуск через Docker Compose
 docker-compose up -d
 
-### Задание второе
-
 
